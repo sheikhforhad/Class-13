@@ -1,0 +1,121 @@
+:root{
+    --primary-fonts:'Poppins', sans-serif;
+    --header-fonts: 'PT Sans', sans-serif;
+    --primary-color: #353535;
+}
+/* Common Css Start */
+* {    
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 1170px;
+    margin: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.text-center{
+    text-align: center;
+}
+.d-block{
+    display: block;
+}
+.w-30{
+    width: 30%;
+}
+.w-33{
+    width: calc(100%/3);
+}
+.w-40{
+    width: 40%;
+}
+.w-50{
+    width: 50%;
+}
+.w-60{
+    width: 60%;
+}
+.w-70{
+    width: 70%;
+}
+.w-100{
+    width: 100%;
+}
+/* Common Css End */
+/* nav start */
+#nav ul li{
+    padding: 12px 15px;
+    text-transform: uppercase;   
+}
+#nav ul li a{  
+    font-family: var(--primary-fonts);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 200%; 
+    color: var(--primary-color);
+    margin-left: 25px;
+
+    
+}
+#nav ul li hr{
+    width: 100px;
+}
+#nav ul li:hover hr{
+    border-bottom: 1px solid var(--primary-color);     
+}
+
+/* banner start */
+
+#banner .row .banner_info h2{
+    font-family: var(--primary-fonts);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--primary-color);
+}
+#banner h1{
+    font-family: var(--header-fonts);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 83px;
+    color: var(--primary-color);
+}
+#banner p{
+    font-family: var(--primary-fonts);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+    color: var(--primary-color);
+
+}
+#banner h3{
+    font-family: var(--primary-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 180%;
+    color: var(--primary-color);
+}
